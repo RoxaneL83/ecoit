@@ -43,8 +43,8 @@
                 <a class="nav-link" href="#">Devenir formateur(trice)</a>
               </li>
             </ul>
-            <a href="connexion.php" class="btn btn-outline-light me-2">Se connecter</a>
-            <a href="/inscription" class="btn btn-light">S'inscrire</a>
+            <a href="connexion.php" class="btn btn-outline-success me-2">Se connecter</a>
+            <a href="/inscription" class="btn btn-success">S'inscrire</a>
           </div>
         </div>
       </nav>
