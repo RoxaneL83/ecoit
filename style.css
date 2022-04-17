@@ -1,0 +1,19 @@
+body,
+.navbar {
+  background: #dcdfda;
+}
+
+#navbarNav > div.col-8 > ul > li > a {
+  color: #4b5943;
+}
+
+#navbarNav > div.col-8 > ul > li > a:hover {
+  color: #8fb43a;
+}
+
+#navbarNav > div.col-8 > ul {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=style.css.map */

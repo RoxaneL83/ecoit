@@ -1,0 +1,20 @@
+$greenlight: #dcdfda;
+$greendark: #4b5943;
+$greenhover: #8fb43a;
+
+body,
+.navbar {
+  background: $greenlight;
+}
+
+#navbarNav > div.col-8 > ul > li > a {
+  color: $greendark;
+}
+
+#navbarNav > div.col-8 > ul > li > a:hover {
+  color: $greenhover;
+}
+
+#navbarNav > div.col-8 > ul {
+  justify-content: space-evenly;
+}
