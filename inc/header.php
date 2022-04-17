@@ -1,3 +1,6 @@
+<?php require('inc/functions.php'); ?>
+
+
 <!-- Barre de navigation -->
       <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
@@ -48,7 +51,7 @@
             
            <div class="col-4">
                <a href="#" class="btn btn-outline-success me-2">Se connecter</a>
-                <a href="#" class="btn btn-success">S'inscrire</a>
+                <a href="register.php" class="btn btn-success">S'inscrire</a>
  
            </div>
           </div>
