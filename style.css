@@ -1,13 +1,14 @@
-body,
-.navbar {
+body {
   background: #dcdfda;
 }
 
-#navbarNav > div.col-8 > ul > li > a {
+#navbarNav > div.col-8 > ul > li > a,
+footer > div > ul > li > a {
   color: #4b5943;
 }
 
-#navbarNav > div.col-8 > ul > li > a:hover {
+#navbarNav > div.col-8 > ul > li > a:hover,
+footer > div > ul > li > a:hover {
   color: #8fb43a;
 }
 
@@ -15,5 +16,14 @@ body,
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */

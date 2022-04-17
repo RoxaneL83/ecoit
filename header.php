@@ -35,7 +35,7 @@
             <div class="col-8">
                 <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Formations</a>
@@ -47,8 +47,8 @@
             </div>
             
            <div class="col-4">
-               <a href="connexion.php" class="btn btn-outline-success me-2">Se connecter</a>
-                <a href="/inscription" class="btn btn-success">S'inscrire</a>
+               <a href="#" class="btn btn-outline-success me-2">Se connecter</a>
+                <a href="#" class="btn btn-success">S'inscrire</a>
  
            </div>
           </div>
