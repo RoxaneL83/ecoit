@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+body,
+html {
+  background: #dcdfda;
+}
+
+#navbarNav > div.col-8 > ul > li > a,
+footer > div > ul > li > a {
+  color: #4b5943;
+}
+
+#navbarNav > div.col-8 > ul > li > a:hover,
+footer > div > ul > li > a:hover {
+  color: #8fb43a;
+}
+
+#navbarNav > div.col-8 > ul {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header,
+footer {
+  background-color: #dcdfda;
+  color: #4b5943;
+}
+
+footer > div > ul > li > a,
+footer {
+  color: #4b5943;
+  text-align: center;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  height: 100px;
+}
+/*# sourceMappingURL=style.css.map */

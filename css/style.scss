@@ -1,0 +1,52 @@
+$greenlight: #dcdfda;
+$greendark: #4b5943;
+$greenhover: #8fb43a;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+body,
+html {
+  background: $greenlight;
+}
+
+#navbarNav > div.col-8 > ul > li > a,
+footer > div > ul > li > a {
+  color: $greendark;
+}
+
+#navbarNav > div.col-8 > ul > li > a:hover,
+footer > div > ul > li > a:hover {
+  color: $greenhover;
+}
+
+#navbarNav > div.col-8 > ul {
+  justify-content: space-evenly;
+}
+
+header,
+footer {
+  background-color: $greenlight;
+  color: $greendark;
+}
+
+footer > div > ul > li > a,
+footer {
+  color: $greendark;
+  text-align: center;
+}
+
+footer {
+  // position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  height: 100px;
+}
